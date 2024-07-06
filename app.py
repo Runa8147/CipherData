@@ -9,6 +9,7 @@ BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 
 MODELS = {
     "gemini-pro": f"{BASE_URL}/gemini-pro:generateContent",
+    "gemini-1.5-pro": f"{BASE_URL}/gemini-1.5-pro:generateContent",
     "gemini-pro-vision": f"{BASE_URL}/gemini-pro-vision:generateContent",
     "embedding-001": f"{BASE_URL}/embedding-001:embedContent",
     # Add other models as they become available
